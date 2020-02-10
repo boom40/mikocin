@@ -1,0 +1,44 @@
+.presentation {
+  width: 630px;
+  height: 690px;
+  background-image: url('../images/background/legs-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 27px;
+
+  &__legs-img {
+    position: absolute;
+    top: -230px;
+    left: -105px;
+  }
+
+  @media (max-width: 1550px) {
+    width: 430px;
+    height: 490px;
+    background-size: contain;
+
+    &__legs-img {
+      width: 550px;
+      height: 607px;
+      object-fit: contain;
+    }
+  }
+
+  @media (max-width: 800px) {
+    width: 330px;
+    height: 260px;
+    background-image: none;
+    margin-right: 0;
+    
+    &__legs-img {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+  }
+
+  @media (max-width: 550px) {
+    width: 230px;
+    height: 130px;
+  }
+}

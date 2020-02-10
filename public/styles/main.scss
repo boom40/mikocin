@@ -1,0 +1,26 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  color: #383334;
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+input:focus::-webkit-input-placeholder {
+  color:transparent
+}
+
+.main-scale {
+  transition: 0.5s;
+}
+.main-scale:hover {
+  transform: scale(1.1);
+}
