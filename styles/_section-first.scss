@@ -1,0 +1,32 @@
+.section-first {
+  margin: 0 auto 30px;
+  background-image: url("../images/background/section-first.png");
+  background-repeat: no-repeat;
+  max-width: 2560px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1480px;
+  padding-top: 10px;
+  position: relative;
+}
+
+@media (max-width: 1550px) {
+  .container {
+    width: 750px;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 300px;
+  }
+}

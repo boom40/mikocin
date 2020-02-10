@@ -1,0 +1,95 @@
+.form {
+  padding: 0 25px;
+
+  &__input {
+    font-size: 18px;
+    width: 220px;
+    height: 66px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    background-color: #eef2f7;
+    padding-left: 53px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 22px 27px;
+    background-position: 20px 19px;
+    transition: 0.6s;
+
+    &:hover {
+      background-color: #d8e5f5;
+    }
+
+    &::placeholder {
+      font-size: 16px;
+      color: #666;
+    }
+
+    &--name {
+      background-image: url('../images/order-block/name-icon.svg');
+    }
+
+    &--telephone {
+      background-image: url('../images/order-block/phone-icon.svg');
+    }
+  }
+
+  &__button {
+    width: 220px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffc002;
+    border: 1px solid #666;
+    border-radius: 32px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    margin: 4px 0 20px;
+    transition: 0.6s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &__container {
+      width: 208px;
+      box-sizing: border-box;
+      padding: 4px 36px;
+      margin: 0 auto;
+      border: 1px solid rgb(255, 255, 255, 0.6);
+      border-radius: 27px;
+
+      &:active {
+        border-color: rgb(248, 156, 156);
+      }
+    }
+
+    &--bold {
+      font-size: 28px;
+    }
+  }
+
+  &__rest {
+    display: block;
+    width: 189px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+
+    &--green {
+      color: #aac653;
+    }
+  }
+
+  &__def {
+    display: flex;
+    margin: 22px auto 0;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+}

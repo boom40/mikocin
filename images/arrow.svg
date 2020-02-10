@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 149" width="11" height="149">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #aec3da } 
+	</style>
+	<path id="Shape 3" class="shp0" d="M5 109L6 109L6 116L5 116L5 109ZM5 2L6 2L6 8L5 8L5 2ZM5 14L6 14L6 21L5 21L5 14ZM5 26L6 26L6 32L5 32L5 26ZM6.42 32.28M6.35 31.65M5 141L6 141L6 148L5 148L5 141ZM1.71 7L1 6.29L5.27 2L5.98 2.71L1.71 7ZM10 6.29L9.29 7L5.02 2.71L5.73 2L10 6.29ZM5 125L6 125L6 132L5 132L5 125ZM2 128L9 128L9 129L2 129L2 128Z" />
+</svg>
